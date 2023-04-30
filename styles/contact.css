@@ -1,0 +1,198 @@
+/* the styles for the elements */
+* {
+
+}
+html {
+    background-color: #545252;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    border: 3px solid black;
+
+    background-image: url('../images/pesas-gym-png-2.png');
+}
+a:focus, a:hover {
+    font-style: italic;
+}
+/* the styles for the header */
+header {
+    padding: 1.5em 0 2em 0;
+    border-bottom: 3px solid black;
+    background-image: -moz-linear-gradient(
+            30deg, #f6bb73 0%, #6B09F5 30%, white 50%, #6B09F5 80%, #6B09F5 100%);
+    background-image: -webkit-linear-gradient(
+            30deg, #f6bb73 0%, #6B09F5 30%, white 50%, #6B09F5 80%, #6B09F5 100%);
+    background-image: -o-linear-gradient(
+            30deg, #f6bb73 0%, #6B09F5 30%, white 50%, #6B09F5 80%, #6B09F5 100%);
+    background-image: linear-gradient(
+            30deg, #f6bb73 0%, #6B09F5 30%, white 50%, #6B09F5 80%, #6B09F5 100%);
+}
+header h1 {
+    font-size: 175%;
+    color: black;
+    font-family: "Bodoni MT Black";
+    text-align: center;
+}
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+    color: black;
+    font-family: "Bodoni MT Black";
+    text-align: center;
+}
+header img {
+    float: left;
+    padding: 0 30px;
+}
+.shadow {
+    text-shadow: 2px 2px 2px #17055E;
+}
+/* the styles for the section */
+section {
+    padding: 0 10rem 10rem 10rem;
+}
+section h1 {
+    font-size: 150%;
+    padding: .5em 0 .25em 0;
+    margin: 0;
+}
+section h2 {
+    color: aqua;
+    font-size: 130%;
+    padding: .5em 0 .25em 0;
+}
+section p {
+    padding-bottom: .5em;
+    color: aqua;
+}
+section blockquote {
+    padding: 0 2em;
+    font-style: italic;
+}
+section ul {
+    padding: 0 0 .25em 1.25em;
+}
+section li {
+    padding-bottom: .35em;
+}
+
+section image {
+    float: left;
+
+}
+section h3{
+    color: aqua;
+}
+section ul li{
+    color: aqua;
+}
+/* the styles for the article */
+article {
+    padding: .5em 0;
+    border-top: 2px solid #800000;
+    border-bottom: 2px solid #800000;
+}
+article h2 {
+    padding-top: 0;
+}
+article h3 {
+    font-size: 105%;
+    padding-bottom: .25em;
+}
+article img {
+    float: left;
+    margin-right: 1.9em;
+    position: relative;
+    border: 1px solid black;
+}
+
+/* the styles for the aside */
+aside {
+    width: 215px;
+    float: right;
+    padding: 0 0 20px 20px;
+}
+aside h2 {
+    color: #800000;
+    font-size: 130%;
+    padding: .5em 0 .25em 0;
+}
+aside h3 {
+    font-size: 105%;
+    padding-bottom: .25em;
+}
+aside img {
+    padding-bottom: 1em;
+}
+
+/* the styles for the footer */
+footer {
+    background-color: black;
+    clear: both;
+
+}
+footer p {
+    text-align: center;
+    color: white;
+    padding: 1em 0;
+}
+footer h1{
+    color: white;
+    text-align: center;
+}
+.navbar{
+    background-color: black;
+}
+#nav_menu ul{
+    list-style-type: none;
+    position: relative;
+}
+
+#nav_menu ul li{
+    float: left;
+}
+
+#nav_menu ul li a{
+    display: block;
+    width: 158.79px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Castellar;
+}
+#nav_menu a.current{
+    color: white;
+}
+
+#nav_menu ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu ul ul li{
+    float: none;
+}
+
+#nav_menu ul li:hover > ul{
+    display: block;
+}
+
+#nav_menu > ul::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#nav_menu ul ul li a{
+    color: black;
+
+}
+
+section img{
+    float:left;
+    margin-right:0.1em;
+}
